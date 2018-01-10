@@ -1,0 +1,126 @@
+/**
+* @author        ArticulateLogic Labs
+* @author        Abdullah Al Zakir Hossain, Email: aazhbd@yahoo.com 
+* @copyright     Copyright (c)2013 - 2015 ArticulateLogic Labs
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {    
+    font-family: 'Open Sans', sans-serif, Verdana;
+    font-size: 1vmax;
+    color: rgb(20, 80, 80);
+    -webkit-font-smoothing: antialiased;
+}
+
+/*Page Section-1*/
+#page-section-1 {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+#page-banner {
+    padding: 0;
+    margin: 0;
+}
+
+#banner {
+    width: 100%;
+}
+
+.page-intro {
+    margin-left: 14rem;
+}
+
+.page-largetext {
+    font-size: 5rem;
+    font-weight: 1000;
+}
+
+.page-blocktitle {
+    font-size: 3.2rem;
+}
+
+.page-blocksubtitle {
+    font-size: 3rem;
+}
+
+.page-blockbody {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+
+/*Page Section-2*/
+#page-section-2 {
+    background-color: rgb(20, 80, 80);
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
+}
+
+.page-mediumtext {
+    font-size: 4.5rem;
+    font-weight: 1000;
+}
+
+/*Page Section-3*/
+#page-section-3 {
+    background-color: rgb(20, 80, 80);
+    color: #ffffff;
+    padding-left: 18rem;
+    padding-right: 18rem;
+    padding-bottom: 5rem;
+}
+
+.page-blockicon {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.page-blocktitlecenter {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    padding-bottom: 1rem;
+}
+
+.page-blockbodysmall {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#page-arrow {
+    font-size: 4.5rem;
+    color: rgb(150, 170, 170);
+}
+
+/*Page Section-4*/
+#page-section-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+.page-itemblock {
+    margin-right: 2rem;
+}
+
+.page-blockbodydetails {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    color: rgba(0, 0, 0) !important;
+}
+
+/*Unordered list*/
+.page-unorderedlist {
+    padding-top: 1rem;
+}
+
+.page-list {
+    margin-top: 0.5rem;
+}
