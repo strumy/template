@@ -8,15 +8,21 @@
 
 body {    
     font-family: 'Open Sans', sans-serif, Verdana;
-    font-size: 1vmax;
-    color: rgb(20, 80, 80);
+    font-size: 1vmax;    
     -webkit-font-smoothing: antialiased;
+}
+
+.page-sectiongaptop {
+    margin-top: 2rem;
+}
+
+.page-sectiongapbottom {
+    margin-bottom: 4rem;
 }
 
 /*Page Section-1*/
 #page-section-1 {
-    margin-top: 4rem;
-    margin-bottom: 5rem;
+    
 }
 
 #page-banner {
@@ -26,28 +32,34 @@ body {
 
 #banner {
     width: 100%;
+    height: auto;
 }
 
 .page-intro {
-    margin-left: 14rem;
+    margin-left: 6rem;
+    padding-right: 2em;
 }
 
 .page-largetext {
-    font-size: 5rem;
+    font-size: 4vmax;
     font-weight: 1000;
+    color: rgb(20, 80, 80);
 }
 
 .page-blocktitle {
-    font-size: 3.2rem;
+    font-size: 2.3vmax;
+    color: rgb(20, 80, 80);
 }
 
 .page-blocksubtitle {
-    font-size: 3rem;
+    font-size: 2.3vmax;
+    color: rgb(20, 80, 80);
 }
 
 .page-blockbody {
-    font-size: 1.8rem;
+    font-size: 1.4vmax;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /*Page Section-2*/
@@ -55,15 +67,14 @@ body {
     background-color: rgb(20, 80, 80);
     color: #ffffff;
     text-align: center;
-    font-size: 3.2rem;
+    font-size: 2.5vmax;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
-    padding-left: 16rem;
-    padding-right: 16rem;
 }
 
-.page-mediumtext {
-    font-size: 4.5rem;
+#page-section-2 .page-mediumtext {
+    color: #ffffff;
+    font-size: 3.4vmax;
     font-weight: 1000;
 }
 
@@ -71,30 +82,37 @@ body {
 #page-section-3 {
     background-color: rgb(20, 80, 80);
     color: #ffffff;
-    padding-left: 18rem;
-    padding-right: 18rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 5rem;
 }
 
 .page-blockicon {
     text-align: center;
     padding-bottom: 1rem;
+    height: auto;
 }
 
 .page-blocktitlecenter {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.8vmax;
     font-weight: 1000;
     padding-bottom: 1rem;
 }
 
 .page-blockbodysmall {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2vmax;
 }
 
-#page-arrow {
-    font-size: 4.5rem;
+.page-blockbodysmallaligncenter {
+    text-align: center;
+    font-size: 1.2vmax;
+}
+
+.page-arrow {
+    text-align: center;
+    font-size: 3.2vmax;
     color: rgb(150, 170, 170);
 }
 
@@ -102,25 +120,50 @@ body {
 #page-section-4 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-left: 14rem;
-    margin-right: 14rem;
+}
+
+#page-section-4 .page-mediumtext {
+    color: rgb(20, 80, 80);
+    font-size: 3.4vmax;
+    font-weight: 1000;
+    padding-top: 0.5rem;
+}
+
+.page-item-left {
+    padding-right: 0; 
+    margin-right: 0;
 }
 
 .page-itemblock {
-    margin-right: 2rem;
+    margin-right: 5rem;
+    width: 80%;
+    color: rgba(0, 0, 0) !important;
+}
+
+.page-itemblockgap {
+    margin-right: 6rem;
 }
 
 .page-blockbodydetails {
-    font-size: 1.8rem;
-    padding-top: 1rem;
+    font-size: 1.4vmax;
+    padding-top: 1.2rem;
     color: rgba(0, 0, 0) !important;
+}
+
+.page-texthighlight {
+    font-size: 1.4vmax;
+    color: rgb(20, 80, 80);
+    font-weight: 1000;
+    margin-top: 1rem;
 }
 
 /*Unordered list*/
 .page-unorderedlist {
-    padding-top: 1rem;
+    font-size: 1.4vmax;
+    padding-top: 0.5rem;
 }
 
 .page-list {
-    margin-top: 0.5rem;
+    color: rgb(20, 80, 80);
+    margin-top: 1.2rem;
 }
