@@ -13,7 +13,7 @@ body {
 }
 
 .page-sectiongaptop {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .page-sectiongapbottom {
@@ -22,7 +22,7 @@ body {
 
 /*Page Section-1*/
 #page-section-1 {
-    
+    padding-top: 0.5rem;
 }
 
 #page-banner {
