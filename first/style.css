@@ -137,7 +137,7 @@ body {
 .page-itemblock {
     margin-right: 5rem;
     width: 80%;
-    color: rgba(0, 0, 0) !important;
+    color: rgba(0, 0, 0);
 }
 
 .page-itemblockgap {
@@ -147,7 +147,7 @@ body {
 .page-blockbodydetails {
     font-size: 1.4vmax;
     padding-top: 1.2rem;
-    color: rgba(0, 0, 0) !important;
+    color: rgba(0, 0, 0);
 }
 
 .page-texthighlight {
